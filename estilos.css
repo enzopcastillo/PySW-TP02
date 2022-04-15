@@ -1,0 +1,123 @@
+/* GENERAL */
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+}
+
+/* HEADER */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+  
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #000;
+}
+  
+.active {
+    background-color: #04AA6D;
+}
+  
+@media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+} 
+
+
+
+
+  
+
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: right;
+    width: 20%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+/* FOOTER */
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    color: #2f2f2f;
+    background-color: #555;
+    border-top: 1px solid #e5e5e5;
+}
+  
+.footer > * {
+    flex:  1 100%;
+}
+  
+.footer-left {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin-left: auto;
+}
+    
+.footer-right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+  
+.fa-solid{
+    color: white;
+}
+  
+.fa-brands{
+    color: white;
+}

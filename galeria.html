@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="galeria.css">    
+    <title>Galeria</title>
+</head>
+<body>
+    
+    <header class="header">
+        <h1>My Blog</h1>
+          <p>Enzo Castillo</p>
+    </header>
+
+    <div class="navbar">
+      <a href="principal.html"><i class="fa-solid fa-house"></i> PRINCIPAL</a>
+      <a href="ayuda.html"><i class="fa-solid fa-circle-info"></i> AYUDA</a>
+      <a href="contacto.html"><i class="fa-solid fa-phone"></i> CONTACTO</a>
+      <a class="active" href="galeria.html"><i class="fa-solid fa-image"></i> GALERIA</a>
+      <a href="cv.html"><i class="fa-solid fa-book"></i> CURRICULUM</a>
+    </div>
+
+    <div class="slider">
+      <input type="radio" name="slider" id="slide-1-trigger" class="trigger" checked>
+      <label class="btn" for="slide-1-trigger"></label>
+      <input type="radio" name="slider" id="slide-2-trigger" class="trigger">
+      <label class="btn" for="slide-2-trigger"></label>
+      <input type="radio" name="slider" id="slide-3-trigger" class="trigger">
+      <label class="btn" for="slide-3-trigger"></label>
+      <input type="radio" name="slider" id="slide-4-trigger" class="trigger">
+      <label class="btn" for="slide-4-trigger"></label>
+      <div class="slide-wrapper">
+          <div id="slide-role">
+              <div class="slide slide-1"></div>
+              <div class="slide slide-2"></div>
+              <div class="slide slide-3"></div>
+              <div class="slide slide-4"></div>
+          </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-left">
+          <p>Copyright © 2022 Enzo Castillo.</p>
+            <div class="footer-right">
+              <span>Todos los derechos reservados.</span>
+            </div>
+          </div>
+    </footer>
+
+</body>
+</html>

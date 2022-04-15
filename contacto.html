@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="contacto.css">    
+    <title>Contacto</title>
+</head>
+<body>
+    
+    <header class="header">
+        <h1>My Blog</h1>
+          <p>Enzo Castillo</p>
+    </header>
+
+    <div class="navbar">
+        <a href="principal.html"><i class="fa-solid fa-house"></i> PRINCIPAL</a>
+        <a href="ayuda.html"><i class="fa-solid fa-circle-info"></i> AYUDA</a>
+        <a class="active" href="contacto.html"><i class="fa-solid fa-phone"></i> CONTACTO</a>
+        <a href="galeria.html"><i class="fa-solid fa-image"></i> GALERIA</a>
+        <a href="cv.html"><i class="fa-solid fa-book"></i> CURRICULUM</a>
+  </div>
+
+  <form class="form">
+    <fieldset>
+      <legend><span class="number">1</span> Informacion personal</legend>
+          <label for="nombre">Nombre:</label><input type="text" name="nombre" placeholder="Nombre">
+          <label for="apellido">Apellido:</label><input type="text" name="apellido" placeholder="Apellido">
+          <label for="sexo">Sexo: </label>
+              <input type="radio" id="sexo_hombre" name="sexo_hombre" value="phone"> Hombre
+              <input type="radio" id="sexo_mujer" name="sexo_mujer" value="mail"> Mujer
+              <br><br><br>
+          <label for="date">Fecha de nacimiento:</label><input type="date" name="date" placeholder="Fecha de nacimiento">
+    </fieldset>
+    <fieldset>
+      <legend><span class="number">2</span> Informacion de contacto</legend>
+          <label for="telefono">Numero de telefono:</label><input type="number" name="telefono" placeholder="Numero de telefono">
+          <label for="email">Correo electronico:</label><input type="email" name="email" placeholder="Correo electronico">
+    </fieldset>
+    <fieldset>
+      <legend><span class="number">3</span> Ubicacion</legend>
+          <label for="codigopostal">Codigo Postal:</label><input type="number" name="codigopostal" placeholder="Codigo Postal">
+          <label for="provincia">Provincia:</label>
+          <select id="provincia" name="provincia">
+              <option value="buenosaires">Buenos Aires</option>
+              <option value="caba">Ciudad Autonoma de Buenos Aires</option>
+              <option value="catamarca">Catamarca</option>
+              <option value="chaco">Chaco</option>
+              <option value="chubut">Chubut</option>
+              <option value="cordoba">Cordoba</option>
+              <option value="corrientes">Corrientes</option>
+              <option value="entrerios">Entre Rios</option>
+              <option value="formosa">Formosa</option>
+              <option value="jujuy">Jujuy</option>
+              <option value="lapampa">La Pampa</option>
+              <option value="larioja">La Rioja</option>
+              <option value="mendoza">Mendoza</option>
+              <option value="misiones">Misiones</option>
+              <option value="neuquen">Neuquen</option>
+              <option value="rionegro">Rio Negro</option>
+              <option value="salta">Salta</option>
+              <option value="sanjuan">San Juan</option>
+              <option value="sanluis">San Luis</option>
+              <option value="santacruz">Santa Cruz</option>
+              <option value="santafe">Santa Fe</option>
+              <option value="santiagodelestero">Santiago del Estero</option>
+              <option value="tierradelfuego">Tierra del Fuego</option>
+              <option value="tucuman">Tucuman</option>
+          </select>      
+    </fieldset>
+    <fieldset>
+        <legend><span class="number">4</span> Informacion adicional</legend>
+          <textarea name="comentarios" placeholder="Comentarios"></textarea>
+    </fieldset>
+    <input type="submit" value="Enviar"/>
+  </form>
+
+    <footer class="footer">
+        <div class="footer-left">
+          <p>Copyright © 2022 Enzo Castillo.</p>
+            <div class="footer-right">
+              <span>Todos los derechos reservados.</span>
+            </div>
+          </div>
+    </footer>
+
+</body>
+</html>
